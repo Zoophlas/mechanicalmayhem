@@ -1,0 +1,3 @@
+author = Zuphlas
+version = 0.1
+displayName = Mechanical Mayhem
