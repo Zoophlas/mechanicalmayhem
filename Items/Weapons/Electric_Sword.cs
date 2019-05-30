@@ -18,8 +18,8 @@ namespace mechanicalmayhem.Items.Weapons
             item.melee = true;
 
             // Both of these values are placeholders
-            item.width = 20;
-            item.height = 20;
+            item.width = 40;
+            item.height = 40;
 
             item.useTime = 30;
             item.useAnimation = 30;
