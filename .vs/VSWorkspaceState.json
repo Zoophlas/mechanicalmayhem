@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Items",
+    "\\Items\\silicon",
+    "\\Items\\Weapons",
+    "\\tiles",
+    "\\tiles\\basicblocks",
+    "\\tiles\\basicblocks\\silicon"
   ],
-  "SelectedNode": "\\obj",
+  "SelectedNode": "\\Items\\silicon\\SiliconWafer.cs",
   "PreviewInSolutionExplorer": false
 }
