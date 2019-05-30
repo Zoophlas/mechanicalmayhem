@@ -27,6 +27,7 @@ namespace mechanicalmayhem.Items.silicon
             item.useStyle = 1;
             item.consumable = true;
             item.createTile = mod.TileType("Silicon");
+            item.value = 150;
         }
     }
 }

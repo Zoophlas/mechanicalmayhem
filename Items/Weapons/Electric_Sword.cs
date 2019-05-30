@@ -16,16 +16,13 @@ namespace mechanicalmayhem.Items.Weapons
         {
             item.damage = 22;
             item.melee = true;
-
-            // Both of these values are placeholders
             item.width = 40;
             item.height = 40;
-
             item.useTime = 30;
             item.useAnimation = 30;
             item.useStyle = 1;
             item.knockBack = 5;
-            item.value = Item.buyPrice(gold: 2);
+            item.value = 100000;
             item.rare = 2;
             item.UseSound = SoundID.Item1;
             item.autoReuse = false;

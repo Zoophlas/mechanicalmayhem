@@ -16,6 +16,7 @@ namespace mechanicalmayhem.Items.silicon
             item.width = 20;
             item.height = 20;
             item.maxStack = 999;
+            item.value = 750;
         }
 
         public override void AddRecipes()
