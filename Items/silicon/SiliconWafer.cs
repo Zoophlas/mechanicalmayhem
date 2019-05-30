@@ -22,7 +22,7 @@ namespace mechanicalmayhem.Items.silicon
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "Silicon", 3);
+            recipe.AddIngredient(null, "SiliconOre", 3);
             recipe.AddTile(TileID.Furnaces);
             recipe.SetResult(this);
             recipe.AddRecipe();
