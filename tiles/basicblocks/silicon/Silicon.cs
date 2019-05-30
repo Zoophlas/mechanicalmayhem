@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.ID;
 
 namespace mechanicalmayhem.tiles.basicblocks.silicon
 {
@@ -13,11 +14,15 @@ namespace mechanicalmayhem.tiles.basicblocks.silicon
             Main.tileBlockLight[Type] = true;
             Main.tileLighted[Type] = true;
             dustType = mod.DustType("Sparkle");
-            drop = mod.ItemType("Silicon");
+            drop = mod.ItemType("SiliconOre");
             AddMapEntry(new Color(128, 128, 128));
-
-            // Aditional Data
             minPick = 50;
+            soundType = 21;
+            soundStyle = 1;
+            TileID.Sets.Ore[Type] = true;
+            Main.tileSpelunker[Type] = true;
+            Main.tileValue[Type] = 410;
+            Main.tileShine2[Type] = true;
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)
