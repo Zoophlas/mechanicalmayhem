@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Items",
-    "\\Items\\silicon",
-    "\\Items\\Weapons",
-    "\\tiles",
-    "\\tiles\\basicblocks",
-    "\\tiles\\basicblocks\\silicon"
+    ""
   ],
-  "SelectedNode": "\\tiles\\basicblocks\\silicon\\Silicon.cs",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
