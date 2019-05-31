@@ -6,7 +6,7 @@ namespace mechanicalmayhem
 	{
         public mechanicalmayhem()
         {
-
+            // So far nothing needs to be added on here. So it will stay blank.
         }
 	}
 }
