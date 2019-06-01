@@ -34,7 +34,7 @@ namespace mechanicalmayhem.Items.Tools
              */
         }
 
-        public override void AddRecipe()
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(null, "SiliconWafer", 12);
