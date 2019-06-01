@@ -9,7 +9,7 @@ namespace mechanicalmayhem.Items.Weapons
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A Technologilcal sword that pulses with energy.");
+            Tooltip.SetDefault("A technologilcal sword that pulses with energy.");
         }
 
         public override void SetDefaults()
@@ -31,7 +31,7 @@ namespace mechanicalmayhem.Items.Weapons
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "SiliconWafer", 12);
+            recipe.AddIngredient(null, "SiliconWafer", 8);
             recipe.AddIngredient(ItemID.GoldBar, 4);
             recipe.AddIngredient(ItemID.CopperBar, 2);
             recipe.AddTile(TileID.Anvils);
