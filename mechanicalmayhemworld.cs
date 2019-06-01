@@ -37,8 +37,7 @@ namespace mechanicalmayhemworld
                 int y = WorldGen.genRand.Next((int)WorldGen.rockLayer, Main.maxTilesY);
 
                 // Experiment with this later
-                WorldGen.TileRunner(x, y, (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 5), mod.TileType("Silicon"), false, 0f, 0f, false, true);
-                WorldGen.TileRunner(x, y, (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 5), mod.TileType("Silicon"), false, 0f, 0f, false, true);
+                WorldGen.TileRunner(x, y, (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(15, 21), mod.TileType("Silicon"), false, 0f, 0f, false, true);
             }
         }
 	}
