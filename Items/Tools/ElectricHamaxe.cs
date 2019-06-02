@@ -9,7 +9,7 @@ namespace mechanicalmayhem.Items.Tools
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("");
+            Tooltip.SetDefault("A Technologilcal hamaxe that pulses with energy.");
         }
 
         public override void SetDefaults()

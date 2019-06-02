@@ -9,7 +9,7 @@ namespace mechanicalmayhem.Items.Tools
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A Technologilcal sword that pulses with energy.");
+            Tooltip.SetDefault("A Technologilcal pickaxe that pulses with energy.");
         }
 
         public override void SetDefaults()
