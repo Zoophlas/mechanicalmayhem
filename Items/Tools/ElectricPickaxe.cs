@@ -40,7 +40,7 @@ namespace mechanicalmayhem.Items.Tools
             recipe.AddIngredient(null, "SiliconWafer", 12);
             recipe.AddIngredient(ItemID.GoldBar, 8);
             recipe.AddIngredient(ItemID.CopperBar, 6);
-            recipe.AddTile(TileID.Anvils);
+            recipe.AddTile(null, "SolderingTable");
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

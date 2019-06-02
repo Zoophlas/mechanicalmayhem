@@ -33,7 +33,7 @@ namespace mechanicalmayhem.Items.Weapons
             recipe.AddIngredient(null, "SiliconWafer", 8);
             recipe.AddIngredient(ItemID.GoldBar, 4);
             recipe.AddIngredient(ItemID.CopperBar, 2);
-            recipe.AddTile(TileID.Anvils);
+            recipe.AddTile(null, "SolderingTable");
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
