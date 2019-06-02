@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Items",
+    "\\Items\\silicon",
     "\\Items\\Tools",
     "\\Items\\Weapons"
   ],
-  "SelectedNode": "\\Items\\Tools\\ElectricPickaxe.png",
+  "SelectedNode": "\\Items\\Tools\\ElectricPickaxe.cs",
   "PreviewInSolutionExplorer": false
 }
