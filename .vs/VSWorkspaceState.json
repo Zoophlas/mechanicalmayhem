@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Items",
-    "\\tiles",
-    "\\tiles\\basicblocks"
+    "\\Items\\Tools",
+    "\\Items\\Weapons"
   ],
-  "SelectedNode": "\\description.txt",
+  "SelectedNode": "\\Items\\Tools\\ElectricPickaxe.png",
   "PreviewInSolutionExplorer": false
 }
