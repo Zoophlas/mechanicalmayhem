@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 
-namespace mechanicalmayhem.tiles.basicblocks
+namespace mechanicalmayhem.tiles
 {
     public class Silicon : ModTile
     {
