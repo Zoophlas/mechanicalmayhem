@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Items",
-    "\\Items\\silicon",
-    "\\Items\\Tools",
-    "\\Items\\Weapons"
+    "\\Items"
   ],
-  "SelectedNode": "\\Items\\Tools\\ElectricPickaxe.cs",
+  "SelectedNode": "\\Items\\SolderingTable.cs",
   "PreviewInSolutionExplorer": false
 }
