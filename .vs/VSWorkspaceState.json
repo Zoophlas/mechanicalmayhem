@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Items",
+    "\\Items\\Accessories",
+    "\\Items\\Accessories\\Boots",
     "\\Items\\silicon"
   ],
-  "SelectedNode": "\\Items\\silicon\\SiliconWafer.cs",
+  "SelectedNode": "\\Items\\Accessories\\Boots\\SpeedBoots_Legs.png",
   "PreviewInSolutionExplorer": false
 }
