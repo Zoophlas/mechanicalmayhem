@@ -18,11 +18,11 @@ namespace mechanicalmayhem.Items
             item.value = 5000; // Set to 50 silver if not 50 silver
         }
 
-        public override void AddRecipe()
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Leather, 12);
-            recipe.AddTile(ItemID.Workbenches);
+            recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

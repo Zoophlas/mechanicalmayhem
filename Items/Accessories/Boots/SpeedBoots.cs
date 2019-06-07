@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace mechanicalmayhem.Items.Accessories.Boots
 {
-    [AutoloadEquip(EquipType.Boots)]
+    [AutoloadEquip(EquipType.Legs)]
     public class SpeedBoots : ModItem
     {
         public override void SetStaticDefaults()
@@ -18,7 +18,6 @@ namespace mechanicalmayhem.Items.Accessories.Boots
             item.value = 300000;
             item.rare = 2;
             item.accessory = true;
-            item.name = "Speed Boots";
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
@@ -29,7 +28,7 @@ namespace mechanicalmayhem.Items.Accessories.Boots
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "BasicBoots");
+            recipe.AddIngredient(null, "Boots");
             recipe.AddIngredient(null, "SpeedModule");
             recipe.AddTile(null, "SolderingTable");
             recipe.SetResult(this);

@@ -25,7 +25,7 @@ namespace mechanicalmayhem.Items
             recipe.AddIngredient(null, "SiliconWafer", 3);
             recipe.AddIngredient(ItemID.CopperBar);
             recipe.AddIngredient(ItemID.GoldBar);
-            recipe.AddIngredient(ItemID.PInkGel, 5);
+            recipe.AddIngredient(ItemID.PinkGel, 5);
             recipe.AddTile(null, "SolderingTable");
             recipe.SetResult(this);
             recipe.AddRecipe();
