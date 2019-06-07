@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Items"
+    "\\Items",
+    "\\Items\\silicon"
   ],
-  "SelectedNode": "\\Items\\SolderingTable.cs",
+  "SelectedNode": "\\Items\\silicon\\SiliconWafer.cs",
   "PreviewInSolutionExplorer": false
 }
