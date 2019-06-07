@@ -16,7 +16,7 @@ namespace mechanicalmayhem.Items
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            item.value = 5000;
+            item.value = 25000;
         }
 
         public override void AddRecipes()
