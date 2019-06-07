@@ -16,7 +16,7 @@ namespace mechanicalmayhem.Items
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            item.value = 500; // Change to 5 silver if current value is not 5 silver
+            item.value = 5000;
         }
 
         public override void AddRecipes()
