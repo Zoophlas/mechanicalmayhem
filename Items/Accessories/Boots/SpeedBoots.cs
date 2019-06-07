@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace mechanicalmayhem.Items.Accessories.Boots
 {
-    [AutoloadEquip(EquipType.Legs)]
+    [AutoloadEquip(EquipType.Shoes)]
     public class SpeedBoots : ModItem
     {
         public override void SetStaticDefaults()
